@@ -17,4 +17,11 @@ public class RegresTestData {
 
         return expectedDataMap;
     }
+
+    public String expectedDataInString(String name){
+        String  jsonInString ="{\n" +
+                "                \"name\": \""+name+"\"\n" +
+                "               }";
+        return jsonInString;
+    }
 }

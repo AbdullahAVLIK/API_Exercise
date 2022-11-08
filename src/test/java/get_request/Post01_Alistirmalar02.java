@@ -13,7 +13,7 @@ import java.util.Map;
 import static io.restassured.RestAssured.given;
 import static org.junit.Assert.assertEquals;
 
-public class Get03_Alistirmalar02 extends RegresBaseUrl {
+public class Post01_Alistirmalar02 extends RegresBaseUrl {
 
     //2:  Map ve Pojo Class ile ayrı ayrı yapınız.
 /*
